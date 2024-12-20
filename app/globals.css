@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/EuroStyleNormal.ttf') format('truetype'),
+       url('/fonts/eurostile.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; 
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,5 +26,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'MyCustomFont', sans-serif;
 }

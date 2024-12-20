@@ -1,0 +1,18 @@
+.slidepage {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    animation: animationslide 2s ease-in-out forwards;
+}
+
+@keyframes animationslide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200vw); 
+    }
+}
