@@ -5,6 +5,7 @@ import "./globals.css";
 import { useEffect, useState } from "react";
 import SlidePage from "./Components/slidepage/slidepage";
 import Panel from "./Components/panel/panel";
+import Header from "./Components/header/Header";
 
 
 export default function RootLayout({ children }) {
@@ -26,11 +27,14 @@ export default function RootLayout({ children }) {
         <SlidePage></SlidePage>
         {
          showContent && (
-              <div className="w-full h-screen flex gap-3 p-4">
+              <div className="w-full h-screen flex gap-2 flex-col px-6">
+                  <Header></Header>
+                  <div className="flex h-full w-full gap-10">
                   <Panel></Panel>
                 <main className="">
                   {children}
                </main>
+                  </div>
               </div>
              
         )

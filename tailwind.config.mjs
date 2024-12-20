@@ -13,6 +13,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        itembgcolor: "#0E1D14",
+        itemcolor: "#31E27C"
       },
     },
   },
