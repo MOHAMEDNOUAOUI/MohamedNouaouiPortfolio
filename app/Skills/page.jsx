@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import SkillItem from '../Components/Skillitem/skillitem';
 
+import { eurostyleNormal, robotoRegular, robotoBold, robotoLight } from '../../lib/fonts'
+
 const Skills = () => {
   const [state, setState] = useState();
 
@@ -12,14 +14,14 @@ const Skills = () => {
 
   return (
     <div className="rounded-2xl flex flex-col gap-4 w-full h-full p-5 relative">
-        <h1 className="text-5xl flex item gap-4 items-center tracking-widest font-custom z-10"><span className="text-itemcolor">~</span> <span className="text-gray-400">cd</span> <span>Skills</span></h1>
+        <h1 className={`${eurostyleNormal.className} text-5xl flex item gap-4 items-center tracking-widest z-10`}><span className="text-itemcolor">~</span> <span className="text-gray-400">cd</span> <span>Skills</span></h1>
     <p className='text-gray-400'>
 
-    I am a <span className='text-itemcolor font-custom text-xl tracking-widest'>full-stack</span> developer with expertise in building scalable and efficient applications. On the back end, I specialize in <span className='text-itemcolor font-custom text-xl tracking-widest'>Java</span> with <span className='text-itemcolor font-custom text-xl tracking-widest'>Spring Boot</span>, creating robust APIs and microservices. For the front end, I work with modern frameworks like <span className='text-blue-500 font-custom text-xl tracking-widest'>React.js</span>, <span className='text-orange-400 font-custom text-xl tracking-widest'>next.js</span>, and <span className='text-red-500 font-custom text-xl tracking-widest'>Angular</span> to craft dynamic and responsive user interfaces. I have strong experience with databases, including <span className='text-xl font-custom tracking-widest text-white'> PostgreSQL</span> and MySQL, ensuring optimized data storage and retrieval. Passionate about learning, I constantly explore new tools and technologies to deliver innovative and effective solutions
+    I am a <span className={`${eurostyleNormal.className} text-itemcolor text-xl tracking-widest`}>full-stack</span> developer with expertise in building scalable and efficient applications. On the back end, I specialize in <span className='text-itemcolor font-custom text-xl tracking-widest'>Java</span> with <span className='text-itemcolor font-custom text-xl tracking-widest'>Spring Boot</span>, creating robust APIs and microservices. For the front end, I work with modern frameworks like <span className='text-blue-500 font-custom text-xl tracking-widest'>React.js</span>, <span className='text-orange-400 font-custom text-xl tracking-widest'>next.js</span>, and <span className='text-red-500 font-custom text-xl tracking-widest'>Angular</span> to craft dynamic and responsive user interfaces. I have strong experience with databases, including <span className='text-xl font-custom tracking-widest text-white'> PostgreSQL</span> and MySQL, ensuring optimized data storage and retrieval. Passionate about learning, I constantly explore new tools and technologies to deliver innovative and effective solutions
 
     </p>
 
-    <div className='w-full h-full font-custom'>
+    <div className={`${eurostyleNormal.className} w-full h-full`}>
       <h2 className='text-2xl text-itemcolor'>GET STARTED</h2>
       <p className='text-gray-500'> Explore a wide range of technical expertise, from building modern web applications to developing scalable backend systems.</p>
 

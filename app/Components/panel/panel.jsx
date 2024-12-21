@@ -7,6 +7,8 @@ import { IoFlagOutline } from "react-icons/io5";
 import { BiWorld } from "react-icons/bi";
 import { GrNodes } from "react-icons/gr";
 
+import { eurostyleNormal } from '../../../lib/fonts';
+
 const Panel = () => {
   const [state, setState] = useState();
 
@@ -16,7 +18,7 @@ const Panel = () => {
   }, []);
 
   return (
-    <div className='w-[20%] h-full flex flex-col gap-4 font-custom'>
+    <div className={`w-[20%] h-full flex flex-col gap-4 ${eurostyleNormal.className}`}>
       
       <div>
       <PanelItem page="/" text="Home" Icon={TbSmartHome}></PanelItem>

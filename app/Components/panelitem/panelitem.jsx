@@ -23,7 +23,7 @@ const PanelItem = ({page , text , Icon : Icon}) => {
     }`}
   >
     {Icon && <Icon className="text-lg text-center" />}
-    <span className='tracking-widest font-custom text-[1.1rem] text-center'>{text}</span>
+    <span className='tracking-widest text-[1.1rem] text-center'>{text}</span>
   </Link>
   );
 };

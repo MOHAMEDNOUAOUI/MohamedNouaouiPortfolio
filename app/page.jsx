@@ -19,13 +19,13 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-4 w-full h-full p-5 relative">
         <h1 className={`text-5xl flex item gap-4 items-center tracking-widest z-10 ${eurostyleNormal.className}`}><span className="text-itemcolor">~</span> <span className="text-gray-400">cd</span> <span>Introduction</span><Point></Point></h1>
-        <div className="entry ps-5 text-base font-light font-Roboto tracking-wide z-10">
-        <p className="tracking-wider text-md"><span className="text-xl text-gray-500">Hi!</span> My name is <span className="text-2xl text-itemcolor font-custom">Mohamed Nouaoui</span>, and I am a passionate Full Stack Developer based on Earth, driven by the endless possibilities of technology. With a strong foundation in both front-end and back-end development, I specialize in creating seamless, user-friendly web applications that solve real-world problems</p>
+        <div className={`${robotoLight.className} entry ps-5 text-base font-light tracking-wide z-10`}>
+        <p className="tracking-wider text-md"><span className="text-xl text-gray-500">Hi!</span> My name is <span className={`text-2xl text-itemcolor ${eurostyleNormal.className}`}>Mohamed Nouaoui</span>, and I am a passionate Full Stack Developer based on Earth, driven by the endless possibilities of technology. With a strong foundation in both front-end and back-end development, I specialize in creating seamless, user-friendly web applications that solve real-world problems</p>
         </div>
 
       <div className='base w-full h-full rounded-3xl p-3 bg-itembgcolor relative'>
           
-          <h2 className='relative z-10 font-custom text-2xl tracking-wider '><span className="text-itemcolor">~ </span><span>sudo</span> <span>pacman</span> <span className='text-itemcolor'>-S</span> <span className='text-2xl'>You can find me on</span> </h2>
+          <h2 className={`${eurostyleNormal.className} relative z-10 text-2xl tracking-wider `}><span className="text-itemcolor">~ </span><span>sudo</span> <span>pacman</span> <span className='text-itemcolor'>-S</span> <span className='text-2xl'>You can find me on</span> </h2>
 
           <div className='middle gap-1'>
             <div className="linkdin flex items-center justify-center">
