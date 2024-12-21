@@ -1,0 +1,19 @@
+.letter {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    margin-left:0.5rem;
+    animation: letteranimation 1s infinite ease-in-out; 
+  }
+
+@keyframes letteranimation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

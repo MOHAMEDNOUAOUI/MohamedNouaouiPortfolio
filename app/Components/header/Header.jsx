@@ -8,7 +8,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className='w-full h-24 py-4 flex text-xl font-bold gap-2'>
+    <div className='w-full h-24 py-4 flex text-xl font-bold gap-2 font-custom'>
       Mohamed Nouaoui /<span className='font-normal'>Portfolio</span>
     </div>
   );

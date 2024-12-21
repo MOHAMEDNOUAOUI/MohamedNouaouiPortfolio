@@ -9,6 +9,7 @@ export default {
     extend: {
       fontFamily: {
         custom: ['MyCustomFont', 'sans-serif'],
+        Roboto: ['Roboto' , 'sans-seris'],
       },
       colors: {
         background: "var(--background)",
