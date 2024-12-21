@@ -2,26 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'MyCustomFont';
-  src: url('/fonts/EuroStyleNormal.ttf') format('truetype'),
-       url('/fonts/eurostile.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; 
-}
-
-@font-face{
-  font-family: 'Roboto';
-  src: url('/fonts/Roboto-bold.ttf') format('truetype'),
-  url('/fonts/Roboto-Regular.ttf') format('truetype'),
-  url('/fonts/Roboto-Light.ttf') format('truetype');
-
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 
 :root {
   --background: #ffffff;
