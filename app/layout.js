@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     useEffect(() => {
       const time = setTimeout(() => {
         setShowContent(true)
-      },500);
+      },1200);
       return () => clearTimeout(time);
     },[]);
     
